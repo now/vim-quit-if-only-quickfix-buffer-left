@@ -1,7 +1,3 @@
-" Vim plugin file
-" Maintainer:       Nikolai Weibull <now@bitwi.se>
-" Latest Revision:  2008-10-21
-
 if exists("loaded_plugin_now_quit_if_only_quickfix_buffer_left")
   finish
 endif
