@@ -13,11 +13,10 @@ install: build
 package: $(VIMBALL).gz
 
 %.vba: Manifest
-	ex -N -c '%MkVimball! $@' -c 'quit!' $<
+	ex -N -c '%MkVimball! $@ .' -c 'quit!' $<
 
 %.gz: %
 	gzip -c $< > $@
 
 Manifest: Makefile
 	for f in $(FILES); do echo $$f; done > $@
-
