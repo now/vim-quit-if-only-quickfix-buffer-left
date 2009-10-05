@@ -1,4 +1,4 @@
-VIMBALL = quit-if-only-quickfix-buffer-left
+VIMBALL = quit-if-only-quickfix-buffer-left.vba
 
 FILES = \
 	plugin/now/quit-if-only-quickfix-buffer-left.vim
